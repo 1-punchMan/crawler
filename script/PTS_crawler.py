@@ -4,7 +4,7 @@ import requests
 from pathlib import Path
 from bs4 import BeautifulSoup
 from tqdm import tqdm
-from logger import create_logger
+from crawler.logger import create_logger
 
 
 CHROMEDRIVER_PATH = "/home/zchen/crawler/chromedriver"
